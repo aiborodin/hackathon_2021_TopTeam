@@ -1,0 +1,82 @@
+{
+  "intents": [
+    {
+      "tag": "fear",
+      "patterns": [
+        "I'm scared",
+        "He yelled at me",
+        "I was afraid of my own shadow! ",
+        "I was alone",
+        "My blood ran cold",
+        "I felt anxiously",
+        "I was crying",
+        "I was nervous"
+      ],
+      "responses": [
+        "fear"
+      ],
+      "context": [
+        ""
+      ]
+    },
+    {
+      "tag": "shame",
+      "patterns": [
+        "I'm ashamed",
+        "I feel guilty",
+        "Foolish",
+        "have the blues",
+        "hanging my head",
+        "They ridiculed me",
+        "They were laughing",
+        "It was annoying"
+      ],
+      "responses": [
+        "shame"
+      ],
+      "context": [
+        ""
+      ]
+    },
+    {
+      "tag": "anger",
+      "patterns": [
+        "I'm amgry",
+        "I’ve got a bone!",
+        "bite a head off",
+        "Blow a top.",
+        "kill him/her",
+        "destroy him/her",
+        "I was mad",
+        "he got bent out of shape"
+      ],
+      "responses": [
+        "anger"
+      ],
+      "context": [
+        ""
+      ]
+    },
+    {
+      "tag": "good",
+      "patterns": [
+        "I'm happy",
+        "I'm OK",
+        "feel on top of the world",
+        "over the moon",
+        "in high spirits",
+        "tickled pink",
+        "made my day",
+        "happy camper",
+        "smile",
+        "shine"
+      ],
+      "responses": [
+        "good"
+      ],
+      "context": [
+        ""
+      ]
+    }
+  ]
+}
