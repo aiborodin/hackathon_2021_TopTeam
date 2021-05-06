@@ -16,11 +16,9 @@ def get_text_message(message):
         sendMessage(userId, entries[0].output, entries[0].inputs)
         print(userSteps)
         return
-    print(f"message.text: {message.text}")
     prevEntry: Entry = entries[userSteps[userId]]
     if prevEntry.isAi:
         newEntryIndex = handleAi(message.text, prevEntry.inputs)
-        print(f"newEntryAiIndex: {newEntryIndex}")
     elif len(prevEntry.inputs) == 0:
         newEntryIndex = 0
     else:
@@ -44,7 +42,6 @@ def notifyError(userId, prevEntry):
 
 def handleAi(text: str, answ: [str]) -> int:
     emotion = chatbot_response(text)
-    print(f"random: {emotion} answ: {answ}")
     for i, s in enumerate(answ):
         if s == emotion:
           return i
