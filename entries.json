@@ -18,7 +18,7 @@
     "next": [3,5,6]
   },
   {
-    "output": "Don't worry",
+    "output": "Don't worry. I suggest you to stop taking everything so seriously",
     "inputs": ["You are so helpful", "Let's talk about my mood"],
     "isAi": false,
     "next": [4, 6]
@@ -42,19 +42,19 @@
     "next": [7,8,9,10]
   },
   {
-    "output": "Do not be afraid!",
+    "output": "Do not be afraid! It may seem that everything is so terrible at the moment, but everything will be okay",
     "inputs": ["OK!"],
     "isAi": false,
     "next": [4]
   },
   {
-    "output": "Do not be ashamed!",
+    "output": "Do not be ashamed! It may seem that everyone will remember this moment, but it doesn't really matter",
     "inputs": ["OK!"],
     "isAi": false,
     "next": [4]
   },
   {
-    "output": "Do not get mad!",
+    "output": "Do not get mad! It's not worth it being mad because of it",
     "inputs": ["OK!"],
     "isAi": false,
     "next": [4]
